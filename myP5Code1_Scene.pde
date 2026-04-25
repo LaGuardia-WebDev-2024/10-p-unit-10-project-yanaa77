@@ -1,4 +1,4 @@
-//the names of each pastry
+// the names of each pastry
 var bakeryLabels = ["Croissants", "Pies", "Bread", "Baguettes"];
 
 setup = function() {
@@ -33,22 +33,22 @@ for (var pieX = 70; pieX < 300; pieX += 40) {
      }
 
 
-
+// labels for each pastry row
   textSize(15);
-  text(bakeryLabels[0], 70, 105); //position of label "croissants"
-  text(bakeryLabels[1], 70, 185); //position of label "pies"
-  text(bakeryLabels[2], 70, 260); //position of label "bread"
-  text(bakeryLabels[3], 70, 345); //position of label "baguettes"
+  text(bakeryLabels[0], 70, 105); // position of label "croissants"
+  text(bakeryLabels[1], 70, 185); // position of label "pies"
+  text(bakeryLabels[2], 70, 260); // position of label "bread"
+  text(bakeryLabels[3], 70, 345); // position of label "baguettes"
 }
 
 draw = function(){   
 
 }
 
-
+// when the mouse is clicked, place a strawberry emoji at the cursor 
 mouseClicked = function(){
 textSize(30);
-    text("🍓", mouseX, mouseY); //stawberry appears when clicked 
+    text("🍓", mouseX, mouseY); 
 }
 
 
